@@ -1,0 +1,163 @@
+html,body{height:100%}
+
+.navbar {
+      margin-bottom: 0;
+      background-color: #000;
+      z-index: 9999;
+      border: 0;
+      font-size: 12px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat, sans-serif;
+  }
+
+.jumbotron{
+	background: url(bg.jpg);
+	color: #fff;
+    height:100%;
+    padding: 350px 25px;
+    margin-bottom:0;
+}
+
+.social {
+    margin: 0;
+    padding: 20px;
+}
+
+.social ul {
+    margin: 0;
+    padding: 5px;
+}
+
+.social ul li {
+    margin: 5px;
+    list-style: none outside none;
+    display: inline-block;
+}
+
+.social i {
+    width: 200px;
+    height: 200px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 150px;
+    text-align:center;
+    padding-top: 45px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social i:hover {
+    color: #FFF;
+    text-decoration: none;
+    transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
+    -ms-transition: all ease 0.3s;
+}
+
+.social .fa-github:hover {
+    background: #343434;
+}
+
+.social .fa-google-plus:hover {
+    background: #e64522;
+}
+
+.social .fa-skype:hover {
+    background: #00C6FF;
+}
+
+.social .fa-stack-overflow:hover {
+    background: #FEA501;
+}
+
+.thumbnail {
+    padding: 20px 0 15px 0;
+    border: solid;
+    border-radius: 1px;
+    border-color: #f6f6f6;
+    background-color:#f6f6f6;
+}
+
+.thumbnail img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+.bg-about{
+    background-color:#f6f6f6;
+    color:#161616;
+    padding: 60px 50px;
+    font-family:"Arvo";
+    font-size:15px;
+}
+
+.bg-links {
+    background-color:#f0f1ee;
+}
+
+.bg-proj{
+    background-color:#f6f6f6;
+    color:#161616;
+    padding: 2%;
+    margin: auto;
+    font-size: 15px;
+    font-family:"Arvo";
+}
+
+.bg-contact{
+    padding: 40px 50px;
+    background-color:#f0f1ee;
+    color:#161616;
+    font-size: 15px;
+    font-family:"Arvo";
+}
+
+.bg-footer{
+    background-color:#000;
+    color:#fff;
+}
+
+a:link{
+    color:#333332;
+}
+
+a:visited{
+    color:#333332;
+}
+
+a:hover{
+    text-decoration:none;
+}
+
+@media screen and (max-width: 768px) {
+    .col-md-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+}
+
+.fa-chevron-down{
+    color:#FFF;
+    font-size:40px;
+}
+
+.fa-street-view{
+	color:#161616;
+	font-size:350px;
+}
+
+hr{
+    border-color:black;
+}

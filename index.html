@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<title>Kevin Misir</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device.width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Arvo">
+    <link rel="stylesheet" type="text/css" href="design.css">
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+    $(".navbar a, footer a[href='#myPage'], .jumbotron a[href='#about']").on('click', function (event) {
+
+  // Prevent default anchor click behavior
+  event.preventDefault();
+
+  // Store hash
+  var hash = this.hash;
+
+  // Using jQuery's animate() method to add smooth page scroll
+  // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+  $('html, body').animate({
+    scrollTop: $(hash).offset().top
+  }, 900, function(){
+
+    // Add hash (#) to URL when done scrolling (default click behavior)
+    window.location.hash = hash;
+    });
+  });
+})
+</script>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">kevin misir</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#links">links</a></li>
+                    <li><a href="#projects">projects</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron text-center">
+        <h1>Kevin Misir</h1>
+        <hr width="20%"  />
+        <p>Software Engineer + Student</p>
+        <hr width="20%"/>
+        <a href="#about" title="To About">
+            <i class="fa fa-chevron-down"></i>
+        </a>
+    </div>
+
+    <div id="about" class="container-fluid bg-about text-center">
+        <div class="row">
+            <div class="col-sm-2"> </div>
+            <div class="col-sm-8">
+                <h2>a short description</h2>
+                <hr width="50%"/>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc cursus tortor sit amet tortor sodales, ac dapibus elit condimentum. Donec vehicula, ligula ut suscipit vestibulum, libero dui vehicula nunc, in aliquet purus neque at neque. Nullam tincidunt tristique erat, in dapibus mauris. Suspendisse imperdiet augue at nisi vulputate consequat. Aenean quis venenatis tortor. Suspendisse pharetra aliquet dui ac suscipit. Nulla sodales, lacus id ornare porttitor, tellus urna tincidunt mi, sed feugiat erat sem vitae enim. Ut sem leo, elementum ut odio eget, ornare tempor nisi. Nunc venenatis, risus eu pulvinar mollis, orci lacus mattis eros, nec feugiat erat purus eu felis. Donec vestibulum tincidunt elementum. Nullam semper condimentum commodo. Aenean dignissim est et risus commodo, ut vulputate odio facilisis</p>
+                <br />
+                <h2>what i'm good with</h2>
+                <hr width="50%"/>
+                <p><strong>Progrmaming Languages:</strong> C#, Java, C </p>
+                <p><strong>Applications:</strong> Visual Studio, Eclipse, GIT, Photoshop, Android Studio</p>
+            </div>
+            <div class="col-sm-2"> </div>
+			</div>
+        </div>
+    </div>
+
+	 <div id="links" class="container-fluid bg-links text-center">
+        <div class="social">
+            <ul>
+                <li><a href="https://plus.google.com/114763215046610650779/posts"><i class="fa fa-lg fa-google-plus"></i></a></li>
+                <li><a href="https://github.com/kevinm1075"><i class="fa fa-lg fa-github"></i></a></li>
+                <li><a href="#"><i class="fa fa-lg fa-skype"></i></a></li>
+            </ul>
+        </div>
+        <p><strong></strong>
+    </div>
+	
+    <div id="projects" class="container-fluid bg-proj text-center">
+            <h2>projects i've made</h2>
+            <hr width="30%"/>
+            <h4>(click icon to visit github page for a project)</h4>
+            <div class="row text-center">
+                <div class="col-md-3"></div>
+                <div class="col-md-2">
+                    <div class="thumbnail">
+                        <a href="https://github.com/kevinm1075/IlluminateProject">
+                            <img src="img/lights.png" alt="Illuminate">
+                            <p><strong>Illuminate</strong></p>
+                            <p>Search based AI capable of solving 'Lights Out' puzzles</p>
+                            <p>C# - JavaScript - HTML5 - CSS</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="thumbnail">
+                        <a href="https://github.com/kevinm1075/CSQuiz">
+                            <img src="img/quiz.png" alt="New York">
+                            <p><strong>CSQuiz</strong></p>
+                            <p>Mobile app which quizzes players on computer science topics</p>
+                            <p>Java - Android</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="thumbnail">
+                        <a href="https://github.com/kevinm1075/City-Defense">
+                            <img src="img/city.png" alt="San Francisco">
+                            <p><strong>City Defense</strong></p>
+                            <p>The city is under attack! Defend it from the invading monsters.</p>
+                            <p>C# - Unity3D </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        <div class="row text-center">
+            <div class="col-md-4"></div>
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="https://github.com/kevinm1075/NQueensProblem">
+                        <img src="img/nqueens.png" alt="San Francisco">
+                        <p><strong>N Queens Solution</strong></p>
+                        <p>Genetic algoirthm solution to the N-Queens problem</p>
+                        <p>C#</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="thumbnail">
+                    <a href="https://github.com/kevinm1075/Taint-Analysis-for-Financial-Information">
+                        <img src="img/analysis.png" alt="San Francisco">
+                        <p><strong>Taint Analysis for Financial Information</strong></p>
+                        <p>Keylogger detection using kernel debugging</p>
+                        <p>Python - WinDBG</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        </div>
+
+    <div id="contact" class="container-fluid bg-contact text-center">
+        <h2 class="text-center">where to find me</h2>
+        <hr width="30%"/>
+                <p><span class="glyphicon glyphicon-map-marker"></span> New York, US</p>
+                <p><span class="glyphicon glyphicon-phone"></span> +1 516-732-1300</p>
+                <p><span class="glyphicon glyphicon-envelope"></span> kevinm1075@gmail.com</p>
+        <br />
+        <p><strong>I am actively seeking open postions. If you believe I would be a good fit, lets talk. </strong></p>
+    </div>
+
+    <footer class="container-fluid bg-footer text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p></p>
+    </footer>
+</body>
+
+</html>
