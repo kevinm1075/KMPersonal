@@ -74,13 +74,10 @@ html,body{height:100%}
     background: #e64522;
 }
 
-.social .fa-skype:hover {
+.social .fa-linkedin:hover {
     background: #00C6FF;
 }
 
-.social .fa-stack-overflow:hover {
-    background: #FEA501;
-}
 
 .thumbnail {
     padding: 20px 0 15px 0;
